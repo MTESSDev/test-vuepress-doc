@@ -76,7 +76,10 @@ module.exports = {
   },
   plugins: [
     ['@vuepress/back-to-top', true],
-    ['vuepress-plugin-code-copy', true]
+    ['vuepress-plugin-code-copy', true],
+    searchPlugin({
+      // options
+    })
   ]
 };
 
