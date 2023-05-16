@@ -32,6 +32,7 @@ function getServerSidebar() {
 
 module.exports = {
   title: 'Always Free',
+  base: './test-vuepress-doc/',
   description:
     'Goodness of open source stack technologies and probable free hosting solution',
   head: [
